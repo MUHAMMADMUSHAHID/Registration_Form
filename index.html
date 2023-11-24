@@ -2,27 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login/Signup Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="contsiner">
+    <div class="container">
         <div class="form-box">
             <header>
-                <h1>Login</h1>
+                <h1 id="title">Login</h1>
             </header>
             <form action="">
                 <input type="text"
-                placeholder="Name">
+                placeholder="Name" id="nameField">
                 <input type="email"
                 placeholder="Username/Email address">
                 <input type="password"
                 placeholder="password">
-                <a href="">Forgot password</a>
-                <input type="button" value="login">
+                <a href="">Forgot password?</a>
+                <input type="button" value="Login" id="signinBtn">
+
+                <div class="links">
+                    <a href="#"><img src="./asserts/fb.png" alt=""></a>
+                    <a href="#"><img src="./asserts/Google.png" alt=""></a>
+                    <a href="#"><img src="./asserts/X.webp" alt=""></a>
+                </div>
+                <p class="signup">Not a member?<a href="#" id="signupBtn">Sign Up</a></p>
             </form>
         </div>
     </div>
+
+    <script src="script.js"></script>
+    
 </body>
 </html>
