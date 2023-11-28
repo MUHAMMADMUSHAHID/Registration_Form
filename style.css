@@ -77,7 +77,8 @@ input[type="button"]:hover{
 .signup a{
     font-size: 16px;
     font-weight: 700;
-    color:#5851e3
+    color:#5851e3;
+    
 }
 .signup a:hover{
     color: #10449a;
